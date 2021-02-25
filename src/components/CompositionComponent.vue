@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<script lang="js">
+<script lang="ts">
 import {
   defineComponent, PropType, computed, ref, toRef, Ref
 } from '@vue/composition-api'

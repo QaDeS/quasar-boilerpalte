@@ -2,7 +2,7 @@ import { createLocalVue, mount } from '@vue/test-utils';
 import * as All from 'quasar';
 import { VueConstructor } from 'vue';
 
-import QBtnDemo from './demo/QBtn-demo';
+import QBtnDemo from 'components/QBtn-demo';
 
 // import langEn from 'quasar/lang/en-us' // change to any language you wish! => this breaks wallaby :(
 

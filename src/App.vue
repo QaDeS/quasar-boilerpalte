@@ -3,7 +3,7 @@
     <router-view />
   </div>
 </template>
-<script lang="ts">
+<script lang="js">
 import { defineComponent } from '@vue/composition-api'
 
 export default defineComponent({

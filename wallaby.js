@@ -11,11 +11,11 @@ module.exports = (wallaby) => {
       'jest.config.js',
       'package.json',
       'test/**/*',
-      '!test/**/*.spec.js',
-      '!src/**/*.spec.js',
+      '!*.spec.js',
+      '!**/*.spec.js',
     ],
 
-    tests: ['src/**/*_spec.js', 'test/jest/**/*.spec.js'],
+    tests: ['src/**/*.spec.js', 'test/jest/**/*.spec.js'],
 
     env: {
       type: 'node',

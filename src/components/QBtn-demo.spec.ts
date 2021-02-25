@@ -1,6 +1,6 @@
 import { mountFactory } from '@quasar/quasar-app-extension-testing-unit-jest';
 import { QBtn } from 'quasar'; // <= cherry pick only the components you actually use
-import QBtnDemo from './demo/QBtn-demo';
+import QBtnDemo from './QBtn-demo';
 
 const factory = mountFactory(QBtnDemo, {
   // mount: { type: 'full' } <= uncomment this line to use `mount`; `shallowMount` is used by default as it will stub all **registered** components found into the template
